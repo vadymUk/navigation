@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a24"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Truck cabin background -->
+  <rect width="600" height="500" fill="url(#bg)" rx="16"/>
+  
+  <!-- Dashboard -->
+  <path d="M0 380 Q300 340 600 380 L600 500 L0 500 Z" fill="#111118"/>
+  <rect x="0" y="370" width="600" height="4" fill="#2a2a38"/>
+  
+  <!-- Windshield frame -->
+  <path d="M80 60 L520 60 L560 200 L40 200 Z" fill="#1a1a24" stroke="#2a2a38" stroke-width="2"/>
+  
+  <!-- Road through windshield -->
+  <path d="M200 200 L300 80 L400 200" stroke="#f59e0b" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M150 200 Q300 120 450 200" stroke="#f59e0b" stroke-width="1.5" fill="none" stroke-dasharray="8 6" opacity="0.5"/>
+  
+  <!-- Tablet mount -->
+  <rect x="220" y="100" width="160" height="220" rx="12" fill="#22222e" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="228" y="108" width="144" height="180" rx="6" fill="url(#screen)"/>
+  
+  <!-- Navigation UI on screen -->
+  <path d="M260 200 L300 150 L340 200 L320 200 L320 250 L280 250 L280 200 Z" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="300" cy="170" r="4" fill="#fbbf24"/>
+  <path d="M240 270 L360 270" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M250 280 L350 280" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <rect x="240" y="120" width="60" height="8" rx="4" fill="#f59e0b" opacity="0.6"/>
+  <rect x="240" y="134" width="40" height="6" rx="3" fill="#9494a8" opacity="0.4"/>
+  
+  <!-- Tablet home button area -->
+  <rect x="268" y="296" width="64" height="16" rx="8" fill="#2a2a38"/>
+  
+  <!-- Mount arm -->
+  <rect x="290" y="320" width="20" height="40" rx="4" fill="#2a2a38"/>
+  <rect x="270" y="355" width="60" height="12" rx="6" fill="#1a1a24" stroke="#2a2a38"/>
+  
+  <!-- Steering wheel hint -->
+  <ellipse cx="100" cy="420" rx="50" ry="30" fill="none" stroke="#2a2a38" stroke-width="3"/>
+  <ellipse cx="100" cy="420" rx="20" ry="12" fill="none" stroke="#2a2a38" stroke-width="2"/>
+  
+  <!-- Glow effect -->
+  <ellipse cx="300" cy="200" rx="120" ry="100" fill="#f59e0b" opacity="0.05"/>
+  
+  <!-- Route dots -->
+  <circle cx="180" cy="160" r="3" fill="#f59e0b" opacity="0.6"/>
+  <circle cx="420" cy="140" r="3" fill="#f59e0b" opacity="0.6"/>
+  <circle cx="480" cy="180" r="3" fill="#f59e0b" opacity="0.4"/>
+</svg>

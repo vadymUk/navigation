@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <defs>
+    <linearGradient id="og" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#og)"/>
+  <text x="80" y="280" fill="#f0f0f5" font-family="system-ui,sans-serif" font-size="52" font-weight="700">Samsung Galaxy Tab</text>
+  <text x="80" y="350" fill="#f59e0b" font-family="system-ui,sans-serif" font-size="52" font-weight="700">4;O 40;5:>1V9=8:V2</text>
+  <text x="80" y="420" fill="#9494a8" font-family="system-ui,sans-serif" font-size="28">02V30FVO TIR " @>3@0<8 " C;LB8<54V0</text>
+  <text x="80" y="560" fill="#f59e0b" font-family="system-ui,sans-serif" font-size="24" font-weight="600">TRUCK TAB EUROPE</text>
+  <rect x="750" y="120" width="200" height="280" rx="16" fill="#1a1a24" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="765" y="140" width="170" height="220" rx="8" fill="#0f172a"/>
+  <path d="M820 250 L870 200 L920 250 L900 250 L900 310 L840 310 L840 250 Z" fill="#f59e0b" opacity="0.7"/>
+</svg>
