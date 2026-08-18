@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "TruckTab Europe <onboarding@resend.dev>",
+      from: "Замовлення навігаційного планшета <onboarding@resend.dev>",
       to,
       subject: `Нове замовлення: ${data.name}`,
       html: `
