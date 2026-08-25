@@ -70,7 +70,7 @@ export const products: Product[] = [
     id: "tab-a11-plus-lte 6/128",
     name: "Samsung Galaxy Tab A11+ LTE 6RAM/128GB 5G",
     shortName: "Tab A11+ 6/128 LTE 5G",
-    image: "/images/tab11+lte.jpg",
+    image: "/images/Tab11+lte.jpg",
     description:
       'Великий 11" екран для комфортної навігації, мультимедіа та роботи з кількома програмами одночасно а також підтримка  LTE та Wi-Fi.',
     memory: "128 ГБ",
