@@ -19,7 +19,13 @@ const valueProps = [
   { icon: Package, label: "Готовий комплект" },
 ];
 
-const installedApps = ["Sygic Truck", "Google Maps", "TachoPlus", "+8 програм"];
+const installedApps = [
+  "Sygic Truck",
+  "iGO Primo NextGen",
+  "CamSam plus",
+  "Youtube Premium без реклами",
+  "+7 програм",
+];
 
 export function Hero() {
   return (

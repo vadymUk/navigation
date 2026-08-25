@@ -29,6 +29,8 @@ export function Products() {
                     alt={product.name}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
+                    priority
+                    loading="eager"
                     className="object-contain p-5 transition-transform duration-500 group-hover:scale-105 sm:p-6"
                   />
                   <div className="absolute left-4 top-4">
@@ -98,7 +100,11 @@ export function Products() {
                   </p>
 
                   <div className="mt-5 grid grid-cols-1 gap-2 min-[400px]:grid-cols-2">
-                    <Button href="#contact" size="md" className="w-full min-h-[44px]">
+                    <Button
+                      href="#contact"
+                      size="md"
+                      className="w-full min-h-[44px]"
+                    >
                       Замовити
                     </Button>
                     <Button

@@ -10,7 +10,8 @@ export const appCategoryMeta: Record<
   },
   driver: {
     label: "DRIVER TOOLS",
-    description: "Інструменти для водія: тахограф, сервіси, маршрути та попередження",
+    description:
+      "Інструменти для водія: тахограф, сервіси, маршрути та попередження",
   },
   media: {
     label: "MULTIMEDIA",
@@ -26,15 +27,29 @@ export const applicationCategoryOrder: ApplicationCategory[] = [
 
 export const applications: Application[] = [
   {
-    id: "sygic-truck",
-    name: "Sygic Truck",
+    id: "sygic-truck-new",
+    name: "Sygic Truck новий",
     description:
-      "Навігація, спеціально орієнтована на вантажні автомобілі. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень.",
+      "Остання версія навігації, спеціально орієнтована на вантажні автомобілі. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.",
+    category: "navigation",
+  },
+  {
+    id: "sygic-truck-classic",
+    name: "Sygic Truck класичний",
+    description:
+      "Класична версія навігації для вантажних автомобілів. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.",
     category: "navigation",
   },
   {
     id: "igo-primo",
     name: "iGO Primo NextGen",
+    description:
+      "Навігаційне рішення для поїздок Європою з можливістю роботи з офлайн-картами залежно від встановленої конфігурації.",
+    category: "navigation",
+  },
+  {
+    id: "igo-primo-world",
+    name: "iGO World NextGen",
     description:
       "Навігаційне рішення для поїздок Європою з можливістю роботи з офлайн-картами залежно від встановленої конфігурації.",
     category: "navigation",
@@ -48,7 +63,7 @@ export const applications: Application[] = [
   },
   {
     id: "camsam",
-    name: "CamSam",
+    name: "CamSam plus",
     description:
       "Допомагає водієві отримувати інформацію про камери контролю швидкості та інші попередження, доступні в сервісі.",
     category: "driver",
@@ -84,8 +99,7 @@ export const applications: Application[] = [
   {
     id: "anwap-movies",
     name: "Anwap Movies",
-    description:
-      "Мультимедійний застосунок для перегляду відеоконтенту.",
+    description: "Мультимедійний застосунок для перегляду відеоконтенту.",
     category: "media",
   },
   {
@@ -100,6 +114,13 @@ export const applications: Application[] = [
     name: "IPTV Pro",
     description:
       "Програвач IPTV-потоків, який дозволяє використовувати сумісні IPTV-плейлисти.",
+    category: "media",
+  },
+  {
+    id: "youtube-premium",
+    name: "YouTube Premium",
+    description:
+      "Преміум-версія YouTube без реклами та з можливістю офлайн-перегляду відео.",
     category: "media",
   },
 ];
