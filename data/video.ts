@@ -6,8 +6,7 @@
  * - https://youtu.be/VIDEO_ID
  * - https://www.youtube.com/embed/VIDEO_ID
  */
-export const YOUTUBE_VIDEO_URL =
-  "https://youtu.be/7eLx4L3Oc8w?si=S0wk3AFx4-5gMs19";
+export const YOUTUBE_VIDEO_URL = "https://youtu.be/zW3-Wqdlg7k";
 
 export const videoSectionContent = {
   title: "Подивіться планшет у роботі",
