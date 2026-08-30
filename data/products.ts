@@ -25,7 +25,7 @@ export const products: Product[] = [
     lte: true,
     price: "1 300 zl",
     mainAdvantage: "Інтернет у дорозі — LTE для навігації та Wi-Fi",
-    highlights: ['8,7" дисплей', "LTE", "Wi-Fi", "Android 15"],
+    highlights: ['8,7" дисплей', "5G", "Wi-Fi", "Android 15"],
   },
   {
     id: "tab-a11 8/128",
@@ -37,8 +37,14 @@ export const products: Product[] = [
     memory: "128 ГБ",
     lte: false,
     price: "1 550 zl",
-    mainAdvantage: "Компактний формат для невеликої кабіни",
-    highlights: ['8,7" дисплей', "Wi-Fi", "Android 15"],
+    mainAdvantage: "Компактний формат та потужний для роботи та навігації",
+    highlights: [
+      '8,7" дисплей',
+      "Wi-Fi",
+      "Android 15",
+      "8 ГБ RAM",
+      "128 ГБ пам'яті",
+    ],
   },
   {
     id: "tab-a11-lte 8/128",
@@ -50,8 +56,16 @@ export const products: Product[] = [
     memory: "128 ГБ",
     lte: true,
     price: "1 700 zl",
-    mainAdvantage: "Компактний формат для невеликої кабіни",
-    highlights: ['8,7" дисплей', "LTE", "Wi-Fi", "Android 15"],
+    mainAdvantage:
+      "Компактний формат та потужний для роботи та навігації з підтримкою 5G для швидкого інтернету в дорозі",
+    highlights: [
+      '8,7" дисплей',
+      "5G",
+      "Wi-Fi",
+      "Android 15",
+      "8 ГБ RAM",
+      "128 ГБ пам'яті",
+    ],
   },
   {
     id: "tab-a11-plus 6/128",
@@ -64,7 +78,7 @@ export const products: Product[] = [
     lte: false,
     price: "1 500 zl",
     mainAdvantage: "Великий екран для навігації та мультимедіа",
-    highlights: ['11" дисплей', "Wi-Fi", "6 ГБ RAM"],
+    highlights: ['11" дисплей', "Wi-Fi", "6 ГБ RAM", "128 ГБ пам'яті"],
   },
   {
     id: "tab-a11-plus-lte 6/128",
@@ -78,6 +92,6 @@ export const products: Product[] = [
     price: "1 650 zl",
     mainAdvantage:
       "Великий екран для навігації та мультимедіа та підтримка 5G для швидкого інтернету в дорозі",
-    highlights: ['11" дисплей', "LTE", "Wi-Fi", "6 ГБ RAM"],
+    highlights: ['11" дисплей', "5G", "Wi-Fi", "6 ГБ RAM", "128 ГБ пам'яті"],
   },
 ];
