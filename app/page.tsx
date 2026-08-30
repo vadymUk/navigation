@@ -12,6 +12,7 @@ import { VideoSection } from "@/components/VideoSection";
 import { HowToOrder } from "@/components/HowToOrder";
 import { Contact, FAQ } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { LanguageProvider } from "@/components/LanguageProvider";
 import { seo } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <>
+    <LanguageProvider>
       <Header />
       <main className="overflow-x-hidden">
         <Hero />
@@ -77,6 +78,6 @@ export default function Home() {
         <FAQ />
       </main>
       <Footer />
-    </>
+    </LanguageProvider>
   );
 }

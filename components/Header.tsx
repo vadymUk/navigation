@@ -7,10 +7,12 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { navigationLinks } from "@/data/navigation";
 import { cn } from "@/lib/utils";
+import { languages, useLanguage } from "@/components/LanguageProvider";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const { language, setLanguage } = useLanguage();
 
   useEffect(() => {
     const onScroll = () => setIsScrolled(window.scrollY > 10);
@@ -54,6 +56,31 @@ export function Header() {
 
   const closeMenu = () => setIsOpen(false);
 
+  const languageSwitcher = (
+    <div
+      className="flex items-center rounded-lg border border-border bg-surface-elevated/80 p-0.5"
+      aria-label="Мова сайту"
+    >
+      {languages.map((item) => (
+        <button
+          key={item}
+          type="button"
+          data-language={item}
+          onClick={() => setLanguage(item)}
+          className={cn(
+            "rounded-md px-2 py-1 text-xs font-semibold uppercase transition-colors",
+            language === item
+              ? "bg-accent text-accent-foreground"
+              : "text-muted hover:text-foreground",
+          )}
+          aria-pressed={language === item}
+        >
+          {item}
+        </button>
+      ))}
+    </div>
+  );
+
   return (
     <header
       className={cn(
@@ -86,12 +113,16 @@ export function Header() {
             ))}
           </ul>
 
-          <div className="hidden lg:block">
+          <div className="hidden items-center gap-3 lg:flex">
+            {languageSwitcher}
             <Button href="#contact" size="sm">
               Замовити
             </Button>
           </div>
 
+          <div className="relative z-50 ml-auto mr-2 lg:hidden">
+            {languageSwitcher}
+          </div>
           <button
             type="button"
             className="relative z-50 flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-border bg-surface-elevated/80 text-foreground backdrop-blur-sm transition-colors hover:bg-surface-hover lg:hidden"
@@ -126,6 +157,7 @@ export function Header() {
               </li>
             ))}
           </ul>
+          <div className="mt-6">{languageSwitcher}</div>
           <div className="mt-8">
             <Button
               href="#contact"
