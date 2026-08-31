@@ -11,6 +11,10 @@ export const tabletOptions = [
     value: "Samsung Galaxy Tab A11 8/128",
     label: "Samsung Galaxy Tab A11 8/128",
   },
+  {
+    value: "Samsung Galaxy Tab A11 LTE 8/128 5G",
+    label: "Samsung Galaxy Tab A11 LTE 8/128 5G",
+  },
 
   {
     value: "Samsung Galaxy Tab A11+ 6/128",
