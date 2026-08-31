@@ -4,6 +4,20 @@ import type { ContactFormData } from "@/types";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+function escapeHtml(value: string): string {
+  return value.replace(/[&<>'"]/g, (character) => {
+    const entities: Record<string, string> = {
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      "'": "&#39;",
+      '"': "&quot;",
+    };
+
+    return entities[character];
+  });
+}
+
 export async function POST(request: Request) {
   try {
     const data = (await request.json()) as ContactFormData & {
@@ -21,12 +35,17 @@ export async function POST(request: Request) {
       );
     }
 
+    const submittedAt = new Date().toLocaleString("uk-UA", {
+      timeZone: "Europe/Kyiv",
+    });
+
     await resend.emails.send({
       from: "Замовлення навігаційного планшета <onboarding@resend.dev>",
       to,
       subject: `Нове замовлення: ${data.name}`,
       html: `
         <h2>Нове замовлення планшета</h2>
+        <p><strong>Дата та час:</strong> ${escapeHtml(submittedAt)}</p>
         <p><strong>Ім'я:</strong> ${data.name}</p>
         <p><strong>Телефон:</strong> ${data.phone}</p>
         <p><strong>Месенджер:</strong> ${data.messengerLabel ?? "—"}</p>
