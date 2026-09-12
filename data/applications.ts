@@ -27,17 +27,17 @@ export const applicationCategoryOrder: ApplicationCategory[] = [
 
 export const applications: Application[] = [
   {
-    id: "sygic-truck-new",
-    name: "Sygic Truck новий",
+    id: "sygic-truck",
+    name: "Sygic Truck",
     description:
       "Остання версія навігації, спеціально орієнтована на вантажні автомобілі. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.",
     category: "navigation",
   },
   {
-    id: "sygic-truck-classic",
-    name: "Sygic Truck класичний",
+    id: "tottom-go-truck",
+    name: "Tottom Go Truck",
     description:
-      "Класична версія навігації для вантажних автомобілів. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.",
+      "Всім відома та популярна версія навігації для вантажних автомобілів. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.",
     category: "navigation",
   },
   {
@@ -48,8 +48,15 @@ export const applications: Application[] = [
     category: "navigation",
   },
   {
-    id: "igo-primo-world",
+    id: "igo-world",
     name: "iGO World NextGen",
+    description:
+      "Навігаційне рішення для поїздок Європою з можливістю роботи з офлайн-картами залежно від встановленої конфігурації.",
+    category: "navigation",
+  },
+  {
+    id: "igo-avic",
+    name: "iGO Avic NextGen",
     description:
       "Навігаційне рішення для поїздок Європою з можливістю роботи з офлайн-картами залежно від встановленої конфігурації.",
     category: "navigation",
@@ -83,17 +90,17 @@ export const applications: Application[] = [
     category: "driver",
   },
   {
-    id: "send-to-navigation",
-    name: "Send to Navigation",
+    id: "map2geo",
+    name: "Map2Geo",
     description:
-      "Допомагає передавати знайдену адресу або місце до вибраної навігаційної програми.",
+      "Інструмент для роботи з маршрутами та передачі/конвертації маршрутної інформації між навігаційними рішеннями залежно від конфігурації.",
     category: "driver",
   },
   {
-    id: "map2map",
-    name: "Map2Map",
+    id: "droid-dash-cam",
+    name: "Droid Dash Cam",
     description:
-      "Інструмент для роботи з маршрутами та передачі/конвертації маршрутної інформації між навігаційними рішеннями залежно від конфігурації.",
+      "Застосунок для запису відео з автомобільної камери та перегляду записаного матеріалу.",
     category: "driver",
   },
   {
@@ -105,15 +112,14 @@ export const applications: Application[] = [
   {
     id: "allatv",
     name: "AllaTV",
-    description:
-      "Застосунок для перегляду телевізійного контенту через інтернет.",
+    description: "Застосунок для перегляду відео контенту через інтернет.",
     category: "media",
   },
   {
     id: "iptv-pro",
     name: "IPTV Pro",
     description:
-      "Програвач IPTV-потоків, який дозволяє використовувати сумісні IPTV-плейлисти.",
+      "Програвач IPTV-потоків, який дозволяє використовувати сумісні IPTV-плейлисти. Для перегляду телевізійного контенту через інтернет.",
     category: "media",
   },
   {
@@ -121,6 +127,33 @@ export const applications: Application[] = [
     name: "YouTube Premium",
     description:
       "Преміум-версія YouTube без реклами та з можливістю офлайн-перегляду відео.",
+    category: "media",
+  },
+  {
+    id: "hdSpinTV",
+    name: "HD Spin TV",
+    description:
+      "Застосунок для перегляду телевізійного та відеомедійного контенту високої чіткості через інтернет.",
+    category: "media",
+  },
+  {
+    id: "lift",
+    name: "Lift",
+    description: "Для перегляду відео контенту через інтернет.",
+    category: "media",
+  },
+  {
+    id: "football-live",
+    name: "Football Live",
+    description:
+      "Застосунок для перегляду прямих трансляцій футбольних матчів через інтернет.",
+    category: "media",
+  },
+  {
+    id: "zona-tv",
+    name: "Zona TV",
+    description:
+      "Застосунок для перегляду телевізійного та відеомедійного контенту через інтернет.",
     category: "media",
   },
 ];

@@ -75,6 +75,7 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
       "выберите модель → свяжитесь с нами → получите готовый",
     комплект: "комплект",
     "Youtube Premium без реклами": "YouTube Premium без рекламы",
+    "+ 10 інших програм": "+ 10 других программ",
     "+7 програм": "+7 программ",
     "Підготовлений до роботи": "Подготовлен к работе",
     "Планшет налаштований і готовий до використання в кабіні":
@@ -174,6 +175,8 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
       "Можно установить дополнительную навигацию?",
     "Так, за бажанням можна додати інші навігаційні програми (наприклад, TomTom, Eurowag тощо). Зв'яжіться з нами, і ми допоможемо підібрати оптимальну конфігурацію.":
       "Да, по желанию можно добавить другие навигационные программы, например TomTom или Eurowag. Свяжитесь с нами, и мы поможем подобрать оптимальную конфигурацию.",
+    "Так, за бажанням можна додати інші навігаційні програми (наприклад, Odysseus, Eurowag тощо). Зв'яжіться з нами, і ми допоможемо підібрати оптимальну конфігурацію.":
+      "Да, по желанию можно добавить другие навигационные программы, например Odysseus или Eurowag. Свяжитесь с нами, и мы поможем подобрать оптимальную конфигурацию.",
     "Оберіть модель планшета, повідомте які програми вам потрібні та зв'яжіться з нами через телефон, Viber, WhatsApp або форму на сайті. Ми узгодимо комплектацію та деталі доставки.":
       "Выберите модель планшета, сообщите, какие программы вам нужны, и свяжитесь с нами по телефону, Viber, WhatsApp или через форму на сайте. Мы согласуем комплектацию и детали доставки.",
     "Телефонуйте на +48 576 222 842, пишіть у Viber або WhatsApp за тим самим номером, або заповніть форму замовлення на цій сторінці.":
@@ -221,6 +224,9 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
     "Sygic Truck новий": "Sygic Truck новый",
     "Остання версія навігації, спеціально орієнтована на вантажні автомобілі. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.":
       "Последняя версия навигации, специально ориентированная на грузовые автомобили. Помогает строить маршруты с учетом параметров грузовика и дорожных ограничений.",
+    "Tottom Go Truck": "Tottom Go Truck",
+    "Всім відома та популярна версія навігації для вантажних автомобілів. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.":
+      "Известная и популярная навигация для грузовых автомобилей. Помогает строить маршруты с учетом параметров грузовика и дорожных ограничений.",
     "Sygic Truck класичний": "Sygic Truck классический",
     "Класична версія навігації для вантажних автомобілів. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.":
       "Классическая версия навигации для грузовых автомобилей. Помогает строить маршруты с учетом параметров грузовика и дорожных ограничений.",
@@ -238,6 +244,27 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
       "Помогает передавать найденный адрес или место в выбранную навигационную программу.",
     "Інструмент для роботи з маршрутами та передачі/конвертації маршрутної інформації між навігаційними рішеннями залежно від конфігурації.":
       "Инструмент для работы с маршрутами и передачи или преобразования маршрутной информации между навигационными решениями.",
+    "Droid Dash Cam": "Droid Dash Cam",
+    "Застосунок для запису відео з автомобільної камери та перегляду записаного матеріалу.":
+      "Приложение для записи видео с автомобильной камеры и просмотра записанного материала.",
+    "Football Live": "Football Live",
+    "Застосунок для перегляду прямих трансляцій футбольних матчів через інтернет.":
+      "Приложение для просмотра прямых трансляций футбольных матчей через интернет.",
+    AllaTV: "AllaTV",
+    "Застосунок для перегляду відео контенту через інтернет.":
+      "Приложение для просмотра видеоконтента через интернет.",
+    "HD Spin TV": "HD Spin TV",
+    "Застосунок для перегляду телевізійного та відеомедійного контенту високої чіткості через інтернет.":
+      "Приложение для просмотра телевизионного и видеоконтента высокой четкости через интернет.",
+    "Zona TV": "Zona TV",
+    "Застосунок для перегляду телевізійного та відеомедійного контенту через інтернет.":
+      "Приложение для просмотра телевизионного и видеоконтента через интернет.",
+    "IPTV Pro": "IPTV Pro",
+    "Програвач IPTV-потоків, який дозволяє використовувати сумісні IPTV-плейлисти. Для перегляду телевізійного контенту через інтернет.":
+      "Плеер IPTV-потоков, позволяющий использовать совместимые IPTV-плейлисты. Для просмотра телевизионного контента через интернет.",
+    Lift: "Lift",
+    "Для перегляду відео контенту через інтернет.":
+      "Для просмотра видеоконтента через интернет.",
     "Мультимедійний застосунок для перегляду відеоконтенту.":
       "Мультимедийное приложение для просмотра видеоконтента.",
     "Застосунок для перегляду телевізійного контенту через інтернет.":
@@ -325,7 +352,21 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
     "Які програми встановлюються?": "Какие программы устанавливаются?",
     "У мінімальний пакет входять навігаційні програми (Sygic Truck новий, Sygic Truck класичний, iGO Primo NextGen, IGO World NextGen, або на вибір TomTom Go Truck, eurowag Navigation, Google Maps), програми для водіїв (CamSam plus, LKW App, TachoPlus), утиліти для маршрутів (Send to Navigation, Map2Map) та мультимедійні застосунки (Anwap Movies, AllaTV, IPTV Pro, youtube premium без реклами). Точний перелік узгоджується при замовленні.":
       "В минимальный пакет входят навигационные программы, инструменты для водителей, утилиты для маршрутов и мультимедийные приложения. Точный список согласовывается при заказе.",
+    "У мінімальний пакет входять навігаційні програми (Sygic Truck, iGO Primo NextGen, IGO World NextGen, IGO Avic NextGen, TomTom Go Truck, Google Maps на планшетах з конфігурацією памяті 8/128, а з конфігурацією 4/64 (Sygic Truck, IGO World NextGen, TomTom Go Truck, Google Maps), програми для водіїв (CamSam plus, LKW App, TachoPlus, Droid Dash Cam (відеореєстратор)), утиліти для маршрутів (Map2geo) та мультимедійні застосунки (Lift, Football Live, HD Spin TV, Anwap Movies, AllaTV, IPTV Pro, youtube premium без реклами). Точний перелік узгоджується при замовленні.":
+      "В минимальный пакет входят навигационные программы (Sygic Truck, iGO Primo NextGen, IGO World NextGen, IGO Avic NextGen, TomTom Go Truck, Google Maps на планшетах с конфигурацией памяти 8/128, а с конфигурацией 4/64 (Sygic Truck, IGO World NextGen, TomTom Go Truck, Google Maps), программы для водителей (CamSam plus, LKW App, TachoPlus, Droid Dash Cam (видеорегистратор)), утилиты для маршрутов (Map2geo) и мультимедийные приложения (Lift, Football Live, HD Spin TV, Anwap Movies, AllaTV, IPTV Pro, YouTube Premium без рекламы). Точный список согласовывается при заказе.",
+    "Як здійснити оплату?": "Как произвести оплату?",
+    "Оплата здійснюється шляхом банківського переказу на рахунок продавця. Після оплати вам відправляється замовлений планшет на вказаний вами пачкомат InPost чи адресу. В титулі переказу обов'язково вкажіть ваш номер телефону та планшет який вами замовлено якщо кріплення також замовлялося також вказати. Тобто титул має бути таким як: [номер телефону] [модель планшета] [кріплення]-наприклад: 123456789, Samsung Galaxy Tab A11+ LTE, кріплення (якщо кріплення не замовлялося, залиште порожнім).":
+      "Оплата производится банковским переводом на счет продавца. После оплаты заказанный планшет отправляется в указанный вами постамат InPost или по указанному адресу. В назначении перевода обязательно укажите номер телефона, заказанную модель планшета и крепление, если оно также заказывается. Назначение должно выглядеть так: [номер телефона] [модель планшета] [крепление], например: 123456789, Samsung Galaxy Tab A11+ LTE, крепление (если крепление не заказывалось, оставьте поле пустым).",
+    "Як здійснюється доставка?": "Как осуществляется доставка?",
+    "Доставка здійснюється через пачкомат InPost, dpd чи на вказану вами адресу.":
+      "Доставка осуществляется через постамат InPost, DPD или по указанному вами адресу.",
+    "Чи здійснюється доставка поза межі Польщі?":
+      "Осуществляется ли доставка за пределы Польши?",
+    "Так, доставка поза межі Польщі здійснюється через кур'єрські служби InPost, dpd на вказану вами адресу після оплати.":
+      "Да, доставка за пределы Польши осуществляется курьерскими службами InPost и DPD по указанному вами адресу после оплаты.",
     "Чи можна встановити інші програми?": "Можно установить другие программы?",
+    "Так, за вашим запитом ми можемо встановити додаткові програми, навігаційні програми (eurowag, odysseus тощо). Повідомте нам, які саме застосунки вам потрібні, і ми узгодимо комплектацію.":
+      "Да, по вашему запросу мы можем установить дополнительные программы, включая навигационные, например Eurowag или Odysseus. Сообщите, какие приложения вам нужны, и мы согласуем комплектацию.",
     "Так, за вашим запитом ми можемо встановити додаткові програми, навігаційні програми (TOM TOM, eurowag тощо). Повідомте нам, які саме застосунки вам потрібні, і ми узгодимо комплектацію.":
       "Да, по вашему запросу мы можем установить дополнительные программы, включая навигационные, например TomTom или Eurowag. Сообщите, какие приложения вам нужны, и мы согласуем комплектацию.",
   },
@@ -385,6 +426,7 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
       "wybierz model → skontaktuj się z nami → odbierz gotowy",
     комплект: "zestaw",
     "Youtube Premium без реклами": "YouTube Premium bez reklam",
+    "+ 10 інших програм": "+ 10 innych aplikacji",
     "+7 програм": "+7 aplikacji",
     "Підготовлений до роботи": "Przygotowany do pracy",
     "Планшет налаштований і готовий до використання в кабіні":
@@ -485,6 +527,8 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
       "Czy można zainstalować dodatkową nawigację?",
     "Так, за бажанням можна додати інші навігаційні програми (наприклад, TomTom, Eurowag тощо). Зв'яжіться з нами, і ми допоможемо підібрати оптимальну конфігурацію.":
       "Tak, na życzenie można dodać inne aplikacje nawigacyjne, na przykład TomTom lub Eurowag. Skontaktuj się z nami, a pomożemy dobrać optymalną konfigurację.",
+    "Так, за бажанням можна додати інші навігаційні програми (наприклад, Odysseus, Eurowag тощо). Зв'яжіться з нами, і ми допоможемо підібрати оптимальну конфігурацію.":
+      "Tak, na życzenie można dodać inne aplikacje nawigacyjne, na przykład Odysseus lub Eurowag. Skontaktuj się z nami, a pomożemy dobrać optymalną konfigurację.",
     "Оберіть модель планшета, повідомте які програми вам потрібні та зв'яжіться з нами через телефон, Viber, WhatsApp або форму на сайті. Ми узгодимо комплектацію та деталі доставки.":
       "Wybierz model tabletu, poinformuj nas, jakich aplikacji potrzebujesz, i skontaktuj się telefonicznie, przez Viber, WhatsApp lub formularz na stronie. Ustalimy zestaw i szczegóły dostawy.",
     "Телефонуйте на +48 576 222 842, пишіть у Viber або WhatsApp за тим самим номером, або заповніть форму замовлення на цій сторінці.":
@@ -518,6 +562,9 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
     "Sygic Truck новий": "Sygic Truck nowy",
     "Остання версія навігації, спеціально орієнтована на вантажні автомобілі. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.":
       "Najnowsza wersja nawigacji zaprojektowana specjalnie dla samochodów ciężarowych. Pomaga wyznaczać trasy z uwzględnieniem parametrów pojazdu i ograniczeń drogowych.",
+    "Tottom Go Truck": "Tottom Go Truck",
+    "Всім відома та популярна версія навігації для вантажних автомобілів. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.":
+      "Znana i popularna nawigacja dla samochodów ciężarowych. Pomaga wyznaczać trasy z uwzględnieniem parametrów pojazdu i ograniczeń drogowych.",
     "Sygic Truck класичний": "Sygic Truck klasyczny",
     "Класична версія навігації для вантажних автомобілів. Допомагає будувати маршрути з урахуванням параметрів вантажного автомобіля та дорожніх обмежень таких автомобілів.":
       "Klasyczna wersja nawigacji dla samochodów ciężarowych. Pomaga wyznaczać trasy z uwzględnieniem parametrów pojazdu i ograniczeń drogowych.",
@@ -535,6 +582,27 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
       "Pomaga przesyłać znaleziony adres lub miejsce do wybranej aplikacji nawigacyjnej.",
     "Інструмент для роботи з маршрутами та передачі/конвертації маршрутної інформації між навігаційними рішеннями залежно від конфігурації.":
       "Narzędzie do pracy z trasami oraz przesyłania i konwersji danych tras między rozwiązaniami nawigacyjnymi.",
+    "Droid Dash Cam": "Droid Dash Cam",
+    "Застосунок для запису відео з автомобільної камери та перегляду записаного матеріалу.":
+      "Aplikacja do nagrywania obrazu z kamery samochodowej i oglądania nagranego materiału.",
+    "Football Live": "Football Live",
+    "Застосунок для перегляду прямих трансляцій футбольних матчів через інтернет.":
+      "Aplikacja do oglądania na żywo transmisji meczów piłkarskich przez internet.",
+    AllaTV: "AllaTV",
+    "Застосунок для перегляду відео контенту через інтернет.":
+      "Aplikacja do oglądania treści wideo przez internet.",
+    "HD Spin TV": "HD Spin TV",
+    "Застосунок для перегляду телевізійного та відеомедійного контенту високої чіткості через інтернет.":
+      "Aplikacja do oglądania telewizji i treści wideo w wysokiej rozdzielczości przez internet.",
+    "Zona TV": "Zona TV",
+    "Застосунок для перегляду телевізійного та відеомедійного контенту через інтернет.":
+      "Aplikacja do oglądania telewizji i treści wideo przez internet.",
+    "IPTV Pro": "IPTV Pro",
+    "Програвач IPTV-потоків, який дозволяє використовувати сумісні IPTV-плейлисти. Для перегляду телевізійного контенту через інтернет.":
+      "Odtwarzacz strumieni IPTV umożliwiający korzystanie z kompatybilnych list IPTV. Do oglądania treści telewizyjnych przez internet.",
+    Lift: "Lift",
+    "Для перегляду відео контенту через інтернет.":
+      "Do oglądania treści wideo przez internet.",
     "Мультимедійний застосунок для перегляду відеоконтенту.":
       "Aplikacja multimedialna do oglądania materiałów wideo.",
     "Застосунок для перегляду телевізійного контенту через інтернет.":
@@ -629,8 +697,22 @@ const translations: Record<Exclude<Language, "uk">, Record<string, string>> = {
     "Які програми встановлюються?": "Jakie aplikacje są instalowane?",
     "У мінімальний пакет входять навігаційні програми (Sygic Truck новий, Sygic Truck класичний, iGO Primo NextGen, IGO World NextGen, або на вибір TomTom Go Truck, eurowag Navigation, Google Maps), програми для водіїв (CamSam plus, LKW App, TachoPlus), утиліти для маршрутів (Send to Navigation, Map2Map) та мультимедійні застосунки (Anwap Movies, AllaTV, IPTV Pro, youtube premium без реклами). Точний перелік узгоджується при замовленні.":
       "Minimalny pakiet obejmuje aplikacje nawigacyjne, narzędzia dla kierowców, narzędzia do tras i aplikacje multimedialne. Dokładna lista jest ustalana podczas zamówienia.",
+    "У мінімальний пакет входять навігаційні програми (Sygic Truck, iGO Primo NextGen, IGO World NextGen, IGO Avic NextGen, TomTom Go Truck, Google Maps на планшетах з конфігурацією памяті 8/128, а з конфігурацією 4/64 (Sygic Truck, IGO World NextGen, TomTom Go Truck, Google Maps), програми для водіїв (CamSam plus, LKW App, TachoPlus, Droid Dash Cam (відеореєстратор)), утиліти для маршрутів (Map2geo) та мультимедійні застосунки (Lift, Football Live, HD Spin TV, Anwap Movies, AllaTV, IPTV Pro, youtube premium без реклами). Точний перелік узгоджується при замовленні.":
+      "Minimalny pakiet obejmuje aplikacje nawigacyjne (Sygic Truck, iGO Primo NextGen, IGO World NextGen, IGO Avic NextGen, TomTom Go Truck, Google Maps na tabletach w konfiguracji pamięci 8/128, a w konfiguracji 4/64 (Sygic Truck, IGO World NextGen, TomTom Go Truck, Google Maps), aplikacje dla kierowców (CamSam plus, LKW App, TachoPlus, Droid Dash Cam (wideorejestrator)), narzędzia do tras (Map2geo) oraz aplikacje multimedialne (Lift, Football Live, HD Spin TV, Anwap Movies, AllaTV, IPTV Pro, YouTube Premium bez reklam). Dokładna lista jest ustalana podczas zamówienia.",
+    "Як здійснити оплату?": "Jak dokonać płatności?",
+    "Оплата здійснюється шляхом банківського переказу на рахунок продавця. Після оплати вам відправляється замовлений планшет на вказаний вами пачкомат InPost чи адресу. В титулі переказу обов'язково вкажіть ваш номер телефону та планшет який вами замовлено якщо кріплення також замовлялося також вказати. Тобто титул має бути таким як: [номер телефону] [модель планшета] [кріплення]-наприклад: 123456789, Samsung Galaxy Tab A11+ LTE, кріплення (якщо кріплення не замовлялося, залиште порожнім).":
+      "Płatność odbywa się przelewem bankowym na konto sprzedawcy. Po dokonaniu płatności zamówiony tablet zostanie wysłany do wskazanego przez Ciebie paczkomatu InPost lub na podany adres. W tytule przelewu należy podać numer telefonu, zamówiony model tabletu oraz uchwyt, jeśli jest również zamawiany. Tytuł powinien wyglądać tak: [numer telefonu] [model tabletu] [uchwyt], na przykład: 123456789, Samsung Galaxy Tab A11+ LTE, uchwyt (jeśli uchwyt nie jest zamawiany, pozostaw to pole puste).",
+    "Як здійснюється доставка?": "Jak odbywa się dostawa?",
+    "Доставка здійснюється через пачкомат InPost, dpd чи на вказану вами адресу.":
+      "Dostawa odbywa się przez paczkomat InPost, DPD lub na wskazany przez Ciebie adres.",
+    "Чи здійснюється доставка поза межі Польщі?":
+      "Czy dostawa poza granice Polski jest możliwa?",
+    "Так, доставка поза межі Польщі здійснюється через кур'єрські служби InPost, dpd на вказану вами адресу після оплати.":
+      "Tak, dostawa poza granice Polski jest realizowana przez firmy kurierskie InPost i DPD na wskazany adres po dokonaniu płatności.",
     "Чи можна встановити інші програми?":
       "Czy można zainstalować inne aplikacje?",
+    "Так, за вашим запитом ми можемо встановити додаткові програми, навігаційні програми (eurowag, odysseus тощо). Повідомте нам, які саме застосунки вам потрібні, і ми узгодимо комплектацію.":
+      "Tak, na Twoje życzenie możemy zainstalować dodatkowe aplikacje, w tym nawigacyjne, takie jak Eurowag lub Odysseus. Powiedz nam, czego potrzebujesz, a ustalimy konfigurację.",
     "Так, за вашим запитом ми можемо встановити додаткові програми, навігаційні програми (TOM TOM, eurowag тощо). Повідомте нам, які саме застосунки вам потрібні, і ми узгодимо комплектацію.":
       "Tak, na Twoje życzenie możemy zainstalować dodatkowe aplikacje, w tym nawigacyjne, takie jak TomTom lub Eurowag. Powiedz nam, czego potrzebujesz, a ustalimy konfigurację.",
     "Зателефонувати —": "Zadzwoń —",

@@ -21,10 +21,11 @@ const valueProps = [
 
 const installedApps = [
   "Sygic Truck",
-  "iGO Primo NextGen",
+  "iGO Primo NextGen 3 шт.",
+  "TomTom GO Navigation",
   "CamSam plus",
   "Youtube Premium без реклами",
-  "+7 програм",
+  "+ 10 інших програм",
 ];
 
 export function Hero() {
