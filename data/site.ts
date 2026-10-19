@@ -1,8 +1,7 @@
 export const seo = {
-  title:
-    "Планшети Samsung для далекобійників | TIR navigation tablet для Європи",
+  title: "TIR Navigation Europe",
   description:
-    "Планшети Samsung Galaxy Tab для далекобійників, водіїв вантажних автомобілів і TIR. Навігація для вантажівки, Sygic Truck, iGO Primo, монтаж у кабіні та готові комплекти для Європи.",
+    "Планшети Samsung Galaxy Tab для далекобійників, водіїв вантажних автомобілів і TIR. Навігація для вантажівки, Sygic Truck, iGO Primo,  монтаж у кабіні та готові комплекти для Європи.",
   keywords: [
     "Samsung Galaxy Tab for truck drivers",
     "TIR navigation tablet",
@@ -19,8 +18,8 @@ export const seo = {
     "eurowag navigation",
     "tablet for truck drivers",
   ] as string[],
-  ogImage: "/og-image.svg",
-  locale: "uk_UA",
-  url: "https://trucktabeurope.com",
-  siteName: "TruckTab Europe",
+  ogImage: "/og-image.png",
+  locale: "uk_PL",
+  url: "https://tirnavigation.com",
+  siteName: "TIR Navigation Europe",
 } as const;
