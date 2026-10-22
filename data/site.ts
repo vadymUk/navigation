@@ -19,7 +19,7 @@ export const seo = {
     "tablet for truck drivers",
   ] as string[],
   ogImage: "/og-image.png",
-  locale: "uk_PL",
-  url: "https://www.tirnavigation.com",
+  locale: "uk_UA",
+  url: "https://tirnavigation.com",
   siteName: "TIR Navigation Europe",
 } as const;
