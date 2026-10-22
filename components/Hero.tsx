@@ -135,7 +135,7 @@ export function Hero() {
               aria-hidden="true"
             />
             <Image
-              src="/images/Tab11lte4-64.jpg"
+              src="/images/iconcard.png"
               alt="Планшет Samsung Galaxy Tab у кабіні вантажівки з навігацією"
               width={600}
               height={500}
