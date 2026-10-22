@@ -1,7 +1,7 @@
 export const seo = {
   title: "TIR Navigation Europe",
   description:
-    "Планшети Samsung Galaxy Tab для далекобійників, водіїв вантажних автомобілів і TIR. Навігація для вантажівки, Sygic Truck, iGO Primo,  монтаж у кабіні та готові комплекти для Європи.",
+    "Навігація та інші корисні додатки для далекобійника на основі планшетів Samsung Galaxy Tab — все що потрібно далекобійнику в дорозі.",
   keywords: [
     "Samsung Galaxy Tab for truck drivers",
     "TIR navigation tablet",
