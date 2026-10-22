@@ -28,9 +28,7 @@ export function Products() {
                     src={product.image}
                     alt={product.name}
                     fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    priority
-                    loading="eager"
+                    sizes="(max-width: 1024px) calc(100vw - 2rem), 390px"
                     className="object-contain p-5 transition-transform duration-500 group-hover:scale-105 sm:p-6"
                   />
                   <div className="absolute left-4 top-4">

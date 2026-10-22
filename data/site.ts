@@ -20,6 +20,6 @@ export const seo = {
   ] as string[],
   ogImage: "/og-image.png",
   locale: "uk_PL",
-  url: "https://tirnavigation.com",
+  url: "https://www.tirnavigation.com",
   siteName: "TIR Navigation Europe",
 } as const;
