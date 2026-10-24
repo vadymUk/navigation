@@ -18,8 +18,11 @@ function VideoLoadingShell({ title }: { title: string }) {
   return (
     <div
       className="absolute inset-0 flex items-center justify-center bg-surface"
-      aria-label={`Завантаження відео: ${title}`}
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
     >
+      <span className="sr-only">{`Завантаження відео: ${title}`}</span>
       <div
         className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-accent/10"
         aria-hidden="true"
