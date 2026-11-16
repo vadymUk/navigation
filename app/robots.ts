@@ -1,14 +1,13 @@
 import type { MetadataRoute } from "next";
+import { seo } from "@/data/site";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://tirnavigation.com";
-
   return {
     rules: {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: `${baseUrl}/sitemap.xml`,
-    host: baseUrl,
+    sitemap: `${seo.url}/sitemap.xml`,
+    host: seo.url,
   };
 }
