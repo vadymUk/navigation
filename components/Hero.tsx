@@ -44,7 +44,7 @@ export function Hero() {
         aria-hidden="true"
       />
 
-      <Container className="relative flex min-h-[calc(100dvh-4rem)] flex-col items-center justify-center gap-10 py-10 sm:py-14 lg:flex-row lg:gap-14 lg:py-20">
+      <Container className="relative flex min-h-[calc(100dvh-4rem)] flex-col items-center justify-center gap-10 pt-10 pb-20 sm:pt-14 lg:flex-row lg:gap-14 lg:py-20">
         <div className="flex-1 text-center lg:text-left">
           <div className="animate-fade-in-up mb-4 inline-flex max-w-full items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1.5 text-xs font-medium text-accent sm:px-4 sm:text-sm">
             <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
@@ -128,19 +128,20 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="animate-fade-in-up relative flex w-full max-w-md flex-1 items-center justify-center [animation-delay:200ms] lg:max-w-lg">
+        <div className="animate-fade-in-up relative flex w-full items-center justify-center [animation-delay:200ms] lg:max-w-2xl lg:flex-[1.25]">
           <div className="relative w-full">
             <div
               className="absolute inset-0 rounded-3xl bg-accent/15 blur-2xl"
               aria-hidden="true"
             />
             <Image
-              src="/images/iconcard.png"
+              src="/images/iconcard_hero.png"
               alt="Планшет Samsung Galaxy Tab у кабіні вантажівки з навігацією"
-              width={600}
-              height={500}
+              width={1536}
+              height={1024}
+              sizes="(min-width: 1280px) 644px, (min-width: 1024px) 55vw, (min-width: 640px) calc(100vw - 48px), calc(100vw - 32px)"
               priority
-              className="relative z-10 w-full drop-shadow-2xl transition-transform duration-500 hover:scale-[1.02]"
+              className="relative z-10 h-auto w-full drop-shadow-2xl transition-transform duration-500 hover:scale-[1.02]"
             />
           </div>
         </div>
